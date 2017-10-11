@@ -1,9 +1,9 @@
 import json
 
 
-def load_data(filepath):
-    with open(filepath, 'r', encoding='utf-8-sig') as file_handler:
-        return json.load(file_handler)
+def load_data(filepath, encoding_type):
+    with open(filepath, 'r', encoding='{}'.format(encoding_type)) as f_handler:
+        return json.load(f_handler)
 
 
 def pretty_print_json(data):
@@ -12,5 +12,6 @@ def pretty_print_json(data):
 
 if __name__ == '__main__':
     filepath = input('Введите полный путь до файла json\n')
-    parsed_json = load_data(filepath)
+    encoding_type = input('Введите название кодировки файла (utf-8 и т.д)\n')
+    parsed_json = load_data(filepath, encoding_type)
     print(pretty_print_json(parsed_json))
