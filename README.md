@@ -1,4 +1,4 @@
-# Prettify JSON
+# Приятный JSON
 
 Данный модуль включает в себя следующие функции:
 * _load_data(filepath, encoding_type)_ <br />
@@ -8,7 +8,7 @@
 Принимает информацию после парсинга и выводит ее в Pretty Json на экран
 
 
-# Quickstart
+# Использование
 
 
 Пример запуска на Windows, Python 3.5:
@@ -59,6 +59,6 @@ utf-8-sig
 
 
 ```
-# Project Goals
+# Цели проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код написан исключительно в обучающих целях. Курс для обучения python - [DEVMAN.org](https://devman.org)
