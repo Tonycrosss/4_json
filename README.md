@@ -1,10 +1,10 @@
 # Приятный JSON
 
 Данный модуль включает в себя следующие функции:
-* _load_data(filepath, encoding_type)_
+* _load_data(filepath, encoding_type)_  
 Принимает путь до файла json и тип кодировки, а затем парсит этот файл
 
-* _pretty_print_json(data)_
+* _pretty_print_json(data)_  
 Принимает информацию после парсинга и выводит ее в Pretty Json на экран
 
 
