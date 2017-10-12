@@ -13,7 +13,7 @@
 
 Пример запуска на Windows, Python 3.5:
 
-```#!bash
+```bash
 $ python pprint_json.py
 Введите полный путь до файла json
 ./alco_shops.json
@@ -25,7 +25,7 @@ utf-8-sig
 
 После чего мы получим вывод в формате Pretty json:
 
-```#!bash
+```bash
 {
     "features": [
         {
