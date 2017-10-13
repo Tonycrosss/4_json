@@ -1,8 +1,8 @@
 # Приятный JSON
 
 Данный модуль включает в себя следующие функции:
-* _load_data(filepath, encoding_type)_  
-Принимает путь до файла json и тип кодировки, а затем парсит этот файл
+* _load_data(filepath)_  
+Принимает путь до файла json, а затем парсит этот файл
 
 * _pretty_print_json(data)_  
 Принимает информацию после парсинга и выводит ее в Pretty Json на экран
@@ -14,11 +14,7 @@
 Пример запуска на Windows, Python 3.5:
 
 ```bash
-$ python pprint_json.py
-Введите полный путь до файла json
-./alco_shops.json
-Введите название кодировки файла (utf-8 и т.д)
-utf-8-sig
+$ python pprint_json.py путь_до_файла.json
 
 
 ```
