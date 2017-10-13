@@ -18,4 +18,3 @@ if __name__ == '__main__':
     filepath = sys.argv[1]
     parsed_json = load_data(filepath)
     print(pretty_json_formatter(parsed_json))
-
